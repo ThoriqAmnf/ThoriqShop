@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Marketplace</title>
+</head>
+
+<body>
+    <header>
+        <img src="RemoveLogo.png" alt="Marketplace Logo">
+        <h1>T-shirt Store</h1>
+    </header>
+
+    <main>
+        <div class="product">
+            <img src="bearnard.png" alt="Bearnard T-shirt">
+            <h2>Bearnard T-shirt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Qui modi nostrum earum voluptate maiores quibusdam, nesciunt ipsum error fuga laudantium et labore.</p>
+            <p>Harga: Rp.50.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Bearnard T-shirt', 50000)">Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="ELSIKA.jpeg" alt="ELSIKA T-shirt">
+            <h2>ELSIKA T-shirt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Culpa distinctio quod ducimus reprehenderit.Soluta officia reiciendis optio aliquam ratione unde, quidem tempore.</p>
+            <p>Harga: Rp.55.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('ELSIKA T-shirt', 55000)">Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="desainTigreal.jpeg" alt="Tigreal T-shirt">
+            <h2>Tigreal T-shirt</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Harga: Rp.50.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Product 3', 50000)">Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="nihonT-shirt.jpeg" alt="Nihon T-shirt">
+            <h2>Nihon T-shirt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Culpa distinctio quod ducimus reprehenderit.Soluta officia reiciendis optio aliquam ratione unde, quidem tempore.</p>
+            <p>Harga: Rp.60.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Nihon T-shirt', 60000)">Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="BoboyboiT-shirt.jpeg" alt="Boboiboy T-shirt">
+            <h2>Boboiboy T-shirt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Culpa distinctio quod ducimus reprehenderit.Soluta officia reiciendis optio aliquam ratione unde, quidem tempore.</p>
+            <p>Harga: Rp.55.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Boboiboy T-shirt', 55000)">Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="FreeFire.jpeg" alt="Assasin Bundle T-shirt">
+            <h2>Assasin Bundle T-shirt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Culpa distinctio quod ducimus reprehenderit.Soluta officia reiciendis optio aliquam ratione unde, quidem tempore.</p>
+            <p>Harga: Rp.60.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Assasin Bundle T-shirt', 60000)">Keranjang</button>
+        </div>
+        <div class="product">
+            <img src="Starboy.jpeg" alt="Starboy T-shirt">
+            <h2>Starboy T-shirt</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Culpa distinctio quod ducimus reprehenderit.Soluta officia reiciendis optio aliquam ratione unde, quidem tempore.</p>
+            <p>Harga: Rp.70.000</p>
+            <button class="add-to-cart-btn" onclick="addToCart('Starboy T-shirt', 70000)">Keranjang</button>
+        </div>
+
+    </main>
+
+    <footer>
+        &copy; 2024 T-shirt Store
+    </footer>
+    <script>
+        function addToCart(productName, price) {
+
+            alert(`Menambahkan ${productName} ke keranjang.Harga: Rp${price}`);
+        }
+    </script>
+</body>
+
+</html>
